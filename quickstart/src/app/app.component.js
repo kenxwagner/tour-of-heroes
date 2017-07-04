@@ -6,49 +6,18 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 var core_1 = require("@angular/core");
-var Hero = (function () {
-    function Hero() {
-    }
-    return Hero;
-}());
-exports.Hero = Hero;
-var HEROES = [
-    { id: 11, name: 'Mr. Nice' },
-    { id: 12, name: 'Narco' },
-    { id: 13, name: 'Bombasto' },
-    { id: 14, name: 'Celeritas' },
-    { id: 15, name: 'Magneta' },
-    { id: 16, name: 'RubberMan' },
-    { id: 17, name: 'Dynama' },
-    { id: 18, name: 'Dr IQ' },
-    { id: 19, name: 'Magma' },
-    { id: 20, name: 'Tornado' }
-];
 var AppComponent = (function () {
     function AppComponent() {
         this.title = 'Tour of Heroes';
-        this.heroes = HEROES;
+        this.hero = 'Windstorm';
     }
     return AppComponent;
 }());
 AppComponent = __decorate([
     core_1.Component({
         selector: 'my-app',
-        template: My
-    } / h2 >
-        (function () {
-            function class_1() {
-            }
-            return class_1;
-        }()), "heroes" >
-         * ngFor, "let hero of heroes" >
-        (function () {
-            function class_2() {
-            }
-            return class_2;
-        }()), "badge" > {}, { hero: .id }, /span> {{hero.name}}
-        < /li>
-        < /ul>)
+        template: "\n  <h1>Hello {{name}}</h1>\n  ",
+    })
 ], AppComponent);
 exports.AppComponent = AppComponent;
 //# sourceMappingURL=app.component.js.map
