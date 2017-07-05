@@ -22,12 +22,10 @@ AppModule = __decorate([
             forms_1.FormsModule
         ],
         declarations: [
-            app_component_1.AppComponent
-        ],
-        bootstrap: [
             app_component_1.AppComponent,
             hero_detail_component_1.HeroDetailComponent
-        ]
+        ],
+        bootstrap: [app_component_1.AppComponent]
     })
 ], AppModule);
 exports.AppModule = AppModule;
